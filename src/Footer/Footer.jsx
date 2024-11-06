@@ -2,6 +2,7 @@ import React, { useState, useEffect, Suspense } from "react";
 import { Canvas } from "@react-three/fiber";
 import "./Footer.css";
 import Model from "../model.jsx";
+import Loader from "../Loader.jsx";
 
 const Home = () => {
   const [isRotating, setIsRotating] = useState(false);
@@ -29,7 +30,7 @@ const Home = () => {
           className={`footerCanvas ${isRotating ? "cursor-grabbing" : "cursor-default"}`}
           camera={{ position: [0, 0, 10], fov: 50, near: 0.1, far: 100 }} // Adjust camera position for full screen
         >
-          <Suspense fallback={null}>
+          <Suspense fallback={<Loader/>}>
             <directionalLight position={[-2, -3, 0]} intensity={5} />
             <ambientLight intensity={15} />
             <hemisphereLight skyColor="#0000FF" groundColor="0000FF" intensity={0} />

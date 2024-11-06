@@ -63,3 +63,14 @@ h1 span{
     color: white;
     margin-bottom: 6rem;
 }
+
+
+@media screen and (max-width: 768px) {
+    h1{
+        font-size: 2rem;
+    }
+
+    .Typewriter{
+        font-size: 2rem;
+    }
+}

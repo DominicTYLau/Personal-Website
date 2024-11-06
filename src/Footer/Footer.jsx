@@ -28,13 +28,11 @@ const Home = () => {
       <div className="Footer">
         <Canvas
           className={`footerCanvas ${isRotating ? "cursor-grabbing" : "cursor-default"}`}
-          camera={{ position: [0, 0, 10], fov: 50, near: 0.1, far: 100 }} // Adjust camera position for full screen
+          camera={{ position: [0, 0, 10], fov: 50, near: 0.1, far: 100 }} 
         >
-          <Suspense fallback={<Loader/>}>
-            <directionalLight position={[-2, -3, 0]} intensity={5} />
+                  <Suspense fallback={<Loader/>}>
+            <directionalLight position={[0, -3, 0]} intensity={5} />
             <ambientLight intensity={15} />
-            <hemisphereLight skyColor="#0000FF" groundColor="0000FF" intensity={0} />
-
             <Model
               scale={robotScale}
               position={robotPosition}

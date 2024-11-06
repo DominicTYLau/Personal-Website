@@ -86,7 +86,7 @@ export default class ProjectList extends Component {
                 NameOfProject="ToDo Tracker"
                 imageUrl={todoImage}
                 Description="The to-do tracker uses Java Swing for a GUI, with tasks sorted by priority and due date."
-                readMoreURL="https://github.com/DominicTYLau/Tetris"
+                readMoreURL="https://github.com/DominicTYLau/ToDo-Tracker"
               />
             </div>
             <div className={`grid-item ${projectVisible[4] ? 'visible' : ''}`}>
@@ -94,7 +94,7 @@ export default class ProjectList extends Component {
                 NameOfProject="CSS Styling"
                 imageUrl={projectImage}
                 Description="A website purely made with HTML and CSS."
-                readMoreURL="https://github.com/DominicTYLau/Tetris"
+                readMoreURL="https://github.com/DominicTYLau/Korean-BBQ"
               />
             </div>
           </div>

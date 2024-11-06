@@ -1,0 +1,65 @@
+.AboutContainer {
+    height: 100vh;
+	padding: 2rem;
+	justify-content: center;
+	align-items: center;
+	display: grid;
+	grid-template-columns: 55% 35%;
+	column-gap: 5rem;
+}
+
+.Left h2 {
+	color: white;
+	font-family: "Poppins", sans-serif;
+	font-weight: 600;
+	font-style: normal;
+}
+
+p {
+	color: white;
+	font-size: large;
+	font-family: "Poppins", sans-serif;
+	font-weight: 600;
+	font-style: normal;
+}
+
+.Left {
+    display: flex;
+    flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.icons {
+	display: flex;
+	flex-direction: row;
+}
+
+.icons a:hover{
+	opacity: 0.5;
+}
+
+.Right {
+    display: flex;
+    flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 2rem;
+}
+
+.Right img {
+    margin: 2rem;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    border-radius: 2rem;
+    object-fit: cover; /* Ensures the image scales without stretching */
+}
+@media screen and (max-width: 768px) {
+	.AboutContainer {display: grid;
+		grid-template-columns: 80%;
+		    height: 100%;
+
+ }
+}

@@ -10,7 +10,7 @@ import React, { useRef, useEffect} from 'react'
 import { useGLTF, useAnimations } from '@react-three/drei'
 import {useFrame, useThree} from '@react-three/fiber'
 import {a} from '@react-spring/three'
-import robotScene from '../Assets/black_honey_-_robotic_arm.glb'
+import robotScene from '../assets/black_honey_-_robotic_arm.glb'
 
 const Model = ({ isRotating, setIsRotating, ...props }) => {
   const group = useRef()

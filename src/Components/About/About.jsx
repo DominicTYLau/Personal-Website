@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import { motion } from "framer-motion";
 import "./About.css";
-import profileImage from "../images/profile.jpg";
+import profileImage from "../../Assets/images/profile.jpg";
 
 const About = () => {
     const [inView, setInView] = useState(false); // State to track if the component is in view

@@ -3,11 +3,11 @@
 import React, { Component } from "react";
 import "./ProjectList.css";
 import Project from "./Project";
-import projectImage from "../images/background.png";
-import roboticArmImage from "../images/projects/roboticArm.png";
-import carImage from "../images/projects/car.png";
-import tetrisImage from "../images/projects/tetris.png";
-import todoImage from "../images/projects/todo.png";
+import projectImage from "../../Assets/images/background.png";
+import roboticArmImage from "../../Assets/images/projects/roboticArm.png";
+import carImage from "../../Assets/images/projects/car.png";
+import tetrisImage from "../../Assets/images/projects/tetris.png";
+import todoImage from "../../Assets/images/projects/todo.png";
 
 export default class ProjectList extends Component {
   constructor(props) {

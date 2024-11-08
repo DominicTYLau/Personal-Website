@@ -1,7 +1,7 @@
 import React, { useState, useEffect, Suspense } from "react";
 import { Canvas } from "@react-three/fiber";
 import "./Footer.css";
-import Model from "../model.jsx";
+import Model from "../Model.jsx";
 import Loader from "../Loader.jsx";
 
 const Home = () => {

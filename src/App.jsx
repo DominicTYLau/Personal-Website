@@ -2,11 +2,11 @@
 
 import React from "react";
 import "./App.css";
-import Navbar from "./Navbar/Navbar.jsx";
-import Home from "./Home/Home.jsx";
-import About from "./About/About.jsx";
-import ProjectList from "./Project/ProjectList.jsx";
-import Footer from "./Footer/Footer.jsx";
+import Navbar from "./Components/Navbar/Navbar";
+import Home from "./Components/Home/Home";
+import About from "./Components/About/About";
+import ProjectList from "./Components/Project/ProjectList";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
 	return (
@@ -14,7 +14,7 @@ function App() {
 			<Navbar />
 			<Home id="Home" />
 			<About id="About" />
-			<ProjectList id="test" />
+			<ProjectList id="ProjectList" />
 			<Footer id="Footer" />
 		</div>
 	);

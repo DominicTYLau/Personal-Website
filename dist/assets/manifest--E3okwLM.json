@@ -3,7 +3,7 @@
     "name": "Dominic Lau Website",
     "icons": [
       {
-        "src": "./src/Assets/images/logo.jpeg",
+        "src": "./logo.png",
         "type": "image/png",
         "sizes": "512x512"
       }

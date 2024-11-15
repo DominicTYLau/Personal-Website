@@ -3,17 +3,18 @@
 import React, { Component } from "react";
 import "./ProjectList.css";
 import Project from "./Project";
-import projectImage from "../../assets/images/background.png";
 import roboticArmImage from "../../assets/images/projects/roboticArm.png";
 import carImage from "../../assets/images/projects/car.png";
 import tetrisImage from "../../assets/images/projects/tetris.png";
 import todoImage from "../../assets/images/projects/todo.png";
+import stylingImage from "../../assets/images/projects/styling.png";
+import websiteImage from "../../assets/images/projects/website.png";
 
 export default class ProjectList extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      projectVisible: Array(5).fill(false), // Initialize visibility state for each project
+      projectVisible: Array(6).fill(false), // Initialize visibility state for each project
     };
   }
 
@@ -92,10 +93,18 @@ export default class ProjectList extends Component {
             <div className={`grid-item ${projectVisible[4] ? 'visible' : ''}`}>
               <Project
                 NameOfProject="CSS Styling"
-                imageUrl={projectImage}
+                imageUrl={stylingImage}
                 Description="A website purely made with HTML and CSS."
                 readMoreURL="https://github.com/DominicTYLau/Korean-BBQ"
               />
+            </div>
+            <div className={`grid-item ${projectVisible[5] ? 'visible' : ''}`}>
+            <Project
+              NameOfProject="Personal Website"
+              imageUrl={websiteImage}
+              Description="This website was made with React"
+              readMoreURL="https://github.com/DominicTYLau/Personal-Website"
+            />
             </div>
           </div>
         </div>

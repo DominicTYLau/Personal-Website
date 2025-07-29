@@ -3,7 +3,6 @@
 import React, { Component } from "react";
 import "./ProjectList.css";
 import Project from "./Project";
-import roboticArmImage from "../../assets/images/projects/roboticArm.png";
 import carImage from "../../assets/images/projects/car.png";
 import tetrisImage from "../../assets/images/projects/tetris.png";
 import todoImage from "../../assets/images/projects/todo.png";
@@ -60,10 +59,10 @@ export default class ProjectList extends Component {
           <div className="ProjectsContainer">
             <div className={`grid-item ${projectVisible[0] ? 'visible' : ''}`}>
               <Project
-                NameOfProject="4 DOF Robotic Arm"
-                imageUrl={roboticArmImage}
-                Description="Currently in progress. Researched ROS2 and designed the arm in Fusion 360."
-                readMoreURL="https://github.com/DominicTYLau"
+                NameOfProject="Battle Bots"
+                imageUrl={"https://github.com/DominicTYLau/BattleBots/blob/main/Images/CAD/Full_Cad_1.1.png?raw=true"}
+                Description="WIP. Two small combat robots meant to battle each other."
+                readMoreURL="https://github.com/DominicTYLau/BattleBots"
               />
             </div>
             <div className={`grid-item ${projectVisible[1] ? 'visible' : ''}`}>

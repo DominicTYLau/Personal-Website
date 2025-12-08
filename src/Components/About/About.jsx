@@ -56,8 +56,8 @@ const About = () => {
                     >
                         <h2>A little bit about Me</h2>
                         <p>
-                            I am a High School student in Ottawa. My interests include:
-                            robotics, software development, badminton, and cycling.
+                            I'm a UWaterloo student studying Mathemataics. 
+                            <br/>My interests include: robotics, software development, badminton, and cycling.
                         </p>
                         <div className="icons">
                             <a href="https://github.com/DominicTYLau/">

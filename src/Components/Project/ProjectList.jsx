@@ -6,7 +6,7 @@ import Project from "./Project";
 import carImage from "../../assets/images/projects/car.png";
 import tetrisImage from "../../assets/images/projects/tetris.png";
 import todoImage from "../../assets/images/projects/todo.png";
-import stylingImage from "../../assets/images/projects/styling.png";
+import projectileImage from "../../assets/images/projects/projectile-launcher.png";
 import websiteImage from "../../assets/images/projects/website.png";
 
 export default class ProjectList extends Component {
@@ -61,7 +61,7 @@ export default class ProjectList extends Component {
               <Project
                 NameOfProject="Battle Bots"
                 imageUrl={"https://github.com/DominicTYLau/BattleBots/blob/main/Images/CAD/Full_Cad_1.1.png?raw=true"}
-                Description="WIP. Two small combat robots meant to battle each other."
+                Description="Two small combat robots meant to battle each other."
                 readMoreURL="https://github.com/DominicTYLau/BattleBots"
               />
             </div>
@@ -91,10 +91,10 @@ export default class ProjectList extends Component {
             </div>
             <div className={`grid-item ${projectVisible[4] ? 'visible' : ''}`}>
               <Project
-                NameOfProject="CSS Styling"
-                imageUrl={stylingImage}
-                Description="A website purely made with HTML and CSS."
-                readMoreURL="https://github.com/DominicTYLau/Korean-BBQ"
+                NameOfProject="Projectile Launcher"
+                imageUrl={projectileImage}
+                Description="Launcher and Dropper system where the system simultaneously launches a projectile and drops a target."
+                readMoreURL="https://github.com/DominicTYLau/Projectile-Launcher"
               />
             </div>
             <div className={`grid-item ${projectVisible[5] ? 'visible' : ''}`}>

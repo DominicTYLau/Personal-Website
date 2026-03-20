@@ -56,7 +56,7 @@ const About = () => {
                     >
                         <h2>A little bit about Me</h2>
                         <p>
-                            I'm a UWaterloo student studying Mathemataics. 
+                            I'm a UWaterloo student studying Mathematics. 
                             <br/>My interests include: robotics, software development, badminton, and cycling.
                         </p>
                         <div className="icons">
